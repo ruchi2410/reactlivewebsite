@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-let curDate = new Date(2020,5,5,20);
+let curDate = new Date();
 curDate = curDate.getHours();
 let greeting = " " ;
 const cssStyle = {};
@@ -22,7 +22,7 @@ ReactDOM.render(
    <>
     <div>
       <h1>
-      Hello Ruchi, <span style={cssStyle}> { greeting } </span></h1>
+      Hello Sir, <span style={cssStyle}> { greeting } </span></h1>
      </div>
    </>,
    document.getElementById('root')
